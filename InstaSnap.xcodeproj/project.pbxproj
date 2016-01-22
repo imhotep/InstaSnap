@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FEA92CEB660E38CB4AD06AD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A5AA4DF31ABFD6D04B0748 /* libPods.a */; };
+		883E45931C52DD220027679F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E45921C52DD220027679F /* main.m */; };
+		883E45961C52DD220027679F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E45951C52DD220027679F /* AppDelegate.m */; };
+		883E45991C52DD220027679F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E45981C52DD220027679F /* ViewController.m */; };
+		883E459C1C52DD220027679F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883E459A1C52DD220027679F /* Main.storyboard */; };
+		883E459E1C52DD220027679F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883E459D1C52DD220027679F /* Assets.xcassets */; };
+		883E45A11C52DD220027679F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883E459F1C52DD220027679F /* LaunchScreen.storyboard */; };
+		883E45AC1C52DD220027679F /* InstaSnapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E45AB1C52DD220027679F /* InstaSnapTests.m */; };
+		883E45B71C52DD220027679F /* InstaSnapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E45B61C52DD220027679F /* InstaSnapUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		883E45A81C52DD220027679F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883E45861C52DD220027679F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883E458D1C52DD220027679F;
+			remoteInfo = InstaSnap;
+		};
+		883E45B31C52DD220027679F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883E45861C52DD220027679F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883E458D1C52DD220027679F;
+			remoteInfo = InstaSnap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41A5AA4DF31ABFD6D04B0748 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A761ED88A0CCF06F5EB2CD4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		883E458E1C52DD220027679F /* InstaSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		883E45921C52DD220027679F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		883E45941C52DD220027679F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		883E45951C52DD220027679F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		883E45971C52DD220027679F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		883E45981C52DD220027679F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		883E459B1C52DD220027679F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		883E459D1C52DD220027679F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		883E45A01C52DD220027679F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		883E45A21C52DD220027679F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		883E45A71C52DD220027679F /* InstaSnapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaSnapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		883E45AB1C52DD220027679F /* InstaSnapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaSnapTests.m; sourceTree = "<group>"; };
+		883E45AD1C52DD220027679F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		883E45B21C52DD220027679F /* InstaSnapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaSnapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		883E45B61C52DD220027679F /* InstaSnapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaSnapUITests.m; sourceTree = "<group>"; };
+		883E45B81C52DD220027679F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A3CC0C0EAB866A68AE4EBC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		883E458B1C52DD220027679F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FEA92CEB660E38CB4AD06AD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883E45A41C52DD220027679F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883E45AF1C52DD220027679F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51577DD5E34275D7477B8F24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41A5AA4DF31ABFD6D04B0748 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67BD62DEFBDC702E56F1837E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9A3CC0C0EAB866A68AE4EBC /* Pods.debug.xcconfig */,
+				7A761ED88A0CCF06F5EB2CD4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		883E45851C52DD220027679F = {
+			isa = PBXGroup;
+			children = (
+				883E45901C52DD220027679F /* InstaSnap */,
+				883E45AA1C52DD220027679F /* InstaSnapTests */,
+				883E45B51C52DD220027679F /* InstaSnapUITests */,
+				883E458F1C52DD220027679F /* Products */,
+				67BD62DEFBDC702E56F1837E /* Pods */,
+				51577DD5E34275D7477B8F24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		883E458F1C52DD220027679F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				883E458E1C52DD220027679F /* InstaSnap.app */,
+				883E45A71C52DD220027679F /* InstaSnapTests.xctest */,
+				883E45B21C52DD220027679F /* InstaSnapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		883E45901C52DD220027679F /* InstaSnap */ = {
+			isa = PBXGroup;
+			children = (
+				883E45941C52DD220027679F /* AppDelegate.h */,
+				883E45951C52DD220027679F /* AppDelegate.m */,
+				883E45971C52DD220027679F /* ViewController.h */,
+				883E45981C52DD220027679F /* ViewController.m */,
+				883E459A1C52DD220027679F /* Main.storyboard */,
+				883E459D1C52DD220027679F /* Assets.xcassets */,
+				883E459F1C52DD220027679F /* LaunchScreen.storyboard */,
+				883E45A21C52DD220027679F /* Info.plist */,
+				883E45911C52DD220027679F /* Supporting Files */,
+			);
+			path = InstaSnap;
+			sourceTree = "<group>";
+		};
+		883E45911C52DD220027679F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				883E45921C52DD220027679F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		883E45AA1C52DD220027679F /* InstaSnapTests */ = {
+			isa = PBXGroup;
+			children = (
+				883E45AB1C52DD220027679F /* InstaSnapTests.m */,
+				883E45AD1C52DD220027679F /* Info.plist */,
+			);
+			path = InstaSnapTests;
+			sourceTree = "<group>";
+		};
+		883E45B51C52DD220027679F /* InstaSnapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				883E45B61C52DD220027679F /* InstaSnapUITests.m */,
+				883E45B81C52DD220027679F /* Info.plist */,
+			);
+			path = InstaSnapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		883E458D1C52DD220027679F /* InstaSnap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883E45BB1C52DD220027679F /* Build configuration list for PBXNativeTarget "InstaSnap" */;
+			buildPhases = (
+				39BF29FC4891BBF43BDF4874 /* Check Pods Manifest.lock */,
+				883E458A1C52DD220027679F /* Sources */,
+				883E458B1C52DD220027679F /* Frameworks */,
+				883E458C1C52DD220027679F /* Resources */,
+				BAAE1FC81859D45582C781EE /* Embed Pods Frameworks */,
+				6FD00A99B63D24774AC3C6FA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaSnap;
+			productName = InstaSnap;
+			productReference = 883E458E1C52DD220027679F /* InstaSnap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		883E45A61C52DD220027679F /* InstaSnapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883E45BE1C52DD220027679F /* Build configuration list for PBXNativeTarget "InstaSnapTests" */;
+			buildPhases = (
+				883E45A31C52DD220027679F /* Sources */,
+				883E45A41C52DD220027679F /* Frameworks */,
+				883E45A51C52DD220027679F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883E45A91C52DD220027679F /* PBXTargetDependency */,
+			);
+			name = InstaSnapTests;
+			productName = InstaSnapTests;
+			productReference = 883E45A71C52DD220027679F /* InstaSnapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		883E45B11C52DD220027679F /* InstaSnapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883E45C11C52DD220027679F /* Build configuration list for PBXNativeTarget "InstaSnapUITests" */;
+			buildPhases = (
+				883E45AE1C52DD220027679F /* Sources */,
+				883E45AF1C52DD220027679F /* Frameworks */,
+				883E45B01C52DD220027679F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883E45B41C52DD220027679F /* PBXTargetDependency */,
+			);
+			name = InstaSnapUITests;
+			productName = InstaSnapUITests;
+			productReference = 883E45B21C52DD220027679F /* InstaSnapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		883E45861C52DD220027679F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Anis Kadri";
+				TargetAttributes = {
+					883E458D1C52DD220027679F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					883E45A61C52DD220027679F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 883E458D1C52DD220027679F;
+					};
+					883E45B11C52DD220027679F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 883E458D1C52DD220027679F;
+					};
+				};
+			};
+			buildConfigurationList = 883E45891C52DD220027679F /* Build configuration list for PBXProject "InstaSnap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 883E45851C52DD220027679F;
+			productRefGroup = 883E458F1C52DD220027679F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				883E458D1C52DD220027679F /* InstaSnap */,
+				883E45A61C52DD220027679F /* InstaSnapTests */,
+				883E45B11C52DD220027679F /* InstaSnapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		883E458C1C52DD220027679F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883E45A11C52DD220027679F /* LaunchScreen.storyboard in Resources */,
+				883E459E1C52DD220027679F /* Assets.xcassets in Resources */,
+				883E459C1C52DD220027679F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883E45A51C52DD220027679F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883E45B01C52DD220027679F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39BF29FC4891BBF43BDF4874 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6FD00A99B63D24774AC3C6FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAAE1FC81859D45582C781EE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		883E458A1C52DD220027679F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883E45991C52DD220027679F /* ViewController.m in Sources */,
+				883E45961C52DD220027679F /* AppDelegate.m in Sources */,
+				883E45931C52DD220027679F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883E45A31C52DD220027679F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883E45AC1C52DD220027679F /* InstaSnapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883E45AE1C52DD220027679F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883E45B71C52DD220027679F /* InstaSnapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		883E45A91C52DD220027679F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883E458D1C52DD220027679F /* InstaSnap */;
+			targetProxy = 883E45A81C52DD220027679F /* PBXContainerItemProxy */;
+		};
+		883E45B41C52DD220027679F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883E458D1C52DD220027679F /* InstaSnap */;
+			targetProxy = 883E45B31C52DD220027679F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		883E459A1C52DD220027679F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				883E459B1C52DD220027679F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		883E459F1C52DD220027679F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				883E45A01C52DD220027679F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		883E45B91C52DD220027679F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		883E45BA1C52DD220027679F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		883E45BC1C52DD220027679F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9A3CC0C0EAB866A68AE4EBC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phonegap.InstaSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		883E45BD1C52DD220027679F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A761ED88A0CCF06F5EB2CD4 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phonegap.InstaSnap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		883E45BF1C52DD220027679F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstaSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phonegap.InstaSnapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaSnap.app/InstaSnap";
+			};
+			name = Debug;
+		};
+		883E45C01C52DD220027679F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstaSnapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phonegap.InstaSnapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaSnap.app/InstaSnap";
+			};
+			name = Release;
+		};
+		883E45C21C52DD220027679F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstaSnapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phonegap.InstaSnapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InstaSnap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		883E45C31C52DD220027679F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstaSnapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phonegap.InstaSnapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InstaSnap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		883E45891C52DD220027679F /* Build configuration list for PBXProject "InstaSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883E45B91C52DD220027679F /* Debug */,
+				883E45BA1C52DD220027679F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883E45BB1C52DD220027679F /* Build configuration list for PBXNativeTarget "InstaSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883E45BC1C52DD220027679F /* Debug */,
+				883E45BD1C52DD220027679F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883E45BE1C52DD220027679F /* Build configuration list for PBXNativeTarget "InstaSnapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883E45BF1C52DD220027679F /* Debug */,
+				883E45C01C52DD220027679F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883E45C11C52DD220027679F /* Build configuration list for PBXNativeTarget "InstaSnapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883E45C21C52DD220027679F /* Debug */,
+				883E45C31C52DD220027679F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 883E45861C52DD220027679F /* Project object */;
+}

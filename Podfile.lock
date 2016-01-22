@@ -1,0 +1,79 @@
+PODS:
+  - Cordova (3.9.1)
+  - cordova-plugin-camera (1.2.0):
+    - Cordova (>= 3.0.0)
+  - cordova-plugin-contacts (1.1.0):
+    - Cordova (>= 3.0.0)
+  - cordova-plugin-device (1.0.1):
+    - Cordova (>= 3.0.0)
+  - cordova-plugin-device-motion (1.1.1):
+    - Cordova (>= 3.0.0)
+  - cordova-plugin-device-orientation (1.0.1):
+    - Cordova (>= 3.0.0)
+  - cordova-plugin-file (3.0.0):
+    - Cordova (>= 3.0.0)
+  - cordova-plugin-file-transfer (1.3.0):
+    - Cordova (>= 3.0.0)
+    - cordova-plugin-file
+  - cordova-plugin-geolocation (0.3.10):
+    - Cordova (>= 3.0.0)
+  - cordova-plugin-globalization (1.0.1):
+    - Cordova (>= 3.0.0)
+  - cordova-plugin-inappbrowser (1.0.1):
+    - Cordova (>= 3.0.0)
+  - cordova-plugin-media-capture (1.0.1):
+    - Cordova (>= 3.0.0)
+    - cordova-plugin-file
+  - cordova-plugin-network-information (1.0.1):
+    - Cordova (>= 3.0.0)
+  - cordova-plugin-splashscreen (2.1.0):
+    - Cordova (>= 3.0.0)
+  - cordova-plugin-statusbar (1.0.1):
+    - Cordova (>= 3.0.0)
+  - cordova-plugin-vibration (1.2.0):
+    - Cordova (>= 3.0.0)
+  - CordovaPlugin-console (0.2.10):
+    - Cordova (>= 3.0.0)
+  - phonegap-ios-template (0.1.4)
+
+DEPENDENCIES:
+  - Cordova
+  - cordova-plugin-camera
+  - cordova-plugin-contacts
+  - cordova-plugin-device
+  - cordova-plugin-device-motion
+  - cordova-plugin-device-orientation
+  - cordova-plugin-file
+  - cordova-plugin-file-transfer
+  - cordova-plugin-geolocation
+  - cordova-plugin-globalization
+  - cordova-plugin-inappbrowser
+  - cordova-plugin-media-capture
+  - cordova-plugin-network-information
+  - cordova-plugin-splashscreen
+  - cordova-plugin-statusbar
+  - cordova-plugin-vibration
+  - CordovaPlugin-console
+  - phonegap-ios-template
+
+SPEC CHECKSUMS:
+  Cordova: f8142a2cb0072f5225e865fc5660f174cc0674a5
+  cordova-plugin-camera: 7a1b2e88c6aec0e2383e92e4664db2c102c8fc43
+  cordova-plugin-contacts: ed3af378553b1b83ec16906c2f16545f0f8b1f31
+  cordova-plugin-device: 55f3f851cc5d80f527f23cf9166fcc4c67fcb27a
+  cordova-plugin-device-motion: 55afcbbc954018038624c4d881a065a1501cbc7e
+  cordova-plugin-device-orientation: 2216fdddbbcdc6770c7d3b55715d31b532123088
+  cordova-plugin-file: 43404e59c2abff518ab4749bf2c2b03929fee10e
+  cordova-plugin-file-transfer: 8fed7c8f1f7ca0d91e43a1cd0670742e0b52d0d4
+  cordova-plugin-geolocation: 25cf6222e656036d95acb1d2a1a99bd36bd1849e
+  cordova-plugin-globalization: b662c1f440960db9764f1e71341408caf2fef4e4
+  cordova-plugin-inappbrowser: d3285cd6ba3c517f7fd358258e708899c4978e82
+  cordova-plugin-media-capture: 1447efe8d91f64e8b3a20ac9514c4d1a81c19f0b
+  cordova-plugin-network-information: bbf9792b608fd5af11ec470a2e6d73d150c8304c
+  cordova-plugin-splashscreen: 8783df8974b6026e70fdcd5ca04b495d6e35abaa
+  cordova-plugin-statusbar: 5b1728710c2bb650f133743a22f43d6565a11c42
+  cordova-plugin-vibration: 0000149eed9dfac6da92f626c79213305a1216d4
+  CordovaPlugin-console: aeb6015a9830edaaf8158a6b49f18189ebf38aa5
+  phonegap-ios-template: 31bdf4cf2d9e6ad637e3aea80625e368ed341c4c
+
+COCOAPODS: 0.39.0
