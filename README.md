@@ -412,7 +412,8 @@ We will be building a very simple Instagram like app using iOS native features a
       ```
 6. Go back to the assistant editor with `Main.storyboard` on the left and `ViewController.m` on the right and Ctrl-drag from Surprise button to just above the `captureNow` method.
   
-  <img src="img/buttonaction.png width="760px" />
+  <img src="img/buttonaction.png" width="760px" />
+
   1. create an action and name it `surpriseMe` and add the following code to it
     ```Objective-C
     - (IBAction)surpriseMe:(id)sender {
