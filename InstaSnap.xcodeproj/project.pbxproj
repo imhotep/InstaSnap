@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6FEA92CEB660E38CB4AD06AD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A5AA4DF31ABFD6D04B0748 /* libPods.a */; };
+		88233D2C1C56EDAA009623C0 /* MyCustomCameraPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 88233D2B1C56EDAA009623C0 /* MyCustomCameraPlugin.m */; };
 		883E45931C52DD220027679F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E45921C52DD220027679F /* main.m */; };
 		883E45961C52DD220027679F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E45951C52DD220027679F /* AppDelegate.m */; };
 		883E45991C52DD220027679F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E45981C52DD220027679F /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		41A5AA4DF31ABFD6D04B0748 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A761ED88A0CCF06F5EB2CD4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		88233D2A1C56EDAA009623C0 /* MyCustomCameraPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomCameraPlugin.h; sourceTree = "<group>"; };
+		88233D2B1C56EDAA009623C0 /* MyCustomCameraPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomCameraPlugin.m; sourceTree = "<group>"; };
 		883E458E1C52DD220027679F /* InstaSnap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		883E45921C52DD220027679F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		883E45941C52DD220027679F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,6 +132,8 @@
 				883E45951C52DD220027679F /* AppDelegate.m */,
 				883E45971C52DD220027679F /* ViewController.h */,
 				883E45981C52DD220027679F /* ViewController.m */,
+				88233D2A1C56EDAA009623C0 /* MyCustomCameraPlugin.h */,
+				88233D2B1C56EDAA009623C0 /* MyCustomCameraPlugin.m */,
 				883E459A1C52DD220027679F /* Main.storyboard */,
 				883E459D1C52DD220027679F /* Assets.xcassets */,
 				883E459F1C52DD220027679F /* LaunchScreen.storyboard */,
@@ -347,6 +352,7 @@
 			files = (
 				883E45991C52DD220027679F /* ViewController.m in Sources */,
 				883E45961C52DD220027679F /* AppDelegate.m in Sources */,
+				88233D2C1C56EDAA009623C0 /* MyCustomCameraPlugin.m in Sources */,
 				883E45931C52DD220027679F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
