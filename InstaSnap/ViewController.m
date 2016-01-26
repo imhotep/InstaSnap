@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MyCustomCameraPlugin.h"
 
 @interface ViewController ()
 
@@ -65,6 +66,11 @@
     
     [session startRunning];
 }
+- (IBAction)surpriseMe:(id)sender {
+    MyCustomCameraPlugin *plugin = [self.pluginObjects objectForKey:@"MyCustomCameraPlugin"];
+    [plugin surprise];
+}
+
 - (void) captureNow:(void (^)(NSData*)) sendImageToJS {
     
     AVCaptureConnection *videoConnection = nil;
