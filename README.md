@@ -22,7 +22,7 @@ We will be building a very simple Instagram like app using iOS native features a
     ![](img/dragview.png)
   2. Drag&drop a `Button` to storyboard and give and label it "Surprise". Add constraint to it to center horizontally
   3. Replace ViewController.h with the following code
-      ```
+      ```Objective-C
       #import <UIKit/UIKit.h>
       #import <Cordova/CDVViewController.h>
       #import <AVFoundation/AVCaptureSession.h>
@@ -45,14 +45,15 @@ We will be building a very simple Instagram like app using iOS native features a
     ![](img/viewcontroller.png)
   5. Go back to storybord, select the assistant editor on the top right, ctrl-click on UIView and drag it to the `vImagePreview` property on the right editor
     
-    <img src="img/imagedrag.png width="760px" />
-
+    <img src="img/imagedrag.png" width="760px" />
+  
   6. Repeat same operation on Button, drag it to the surprise `surpriseBtn` property on the right editor
     
-    <img src="img/buttondrag.png width="760px" />
+    <img src="img/buttondrag.png" width="760px" />
+  
 3. add the following code to the `ViewController.m` file
 
-    ```
+    ```Objective-C
     - (void)viewDidAppear:(BOOL)animated {
         [super viewDidAppear:animated];
 
@@ -127,12 +128,15 @@ We will be building a very simple Instagram like app using iOS native features a
     }
     
     ```
-4. Click on File > New > File. Select iOS/Source -> Cocoa Touch Class. Click Next and name it "_MyHybridCameraPlugin_"
-  <img src="img/newfile.png width="760px" />
+    
+4. Click on File > New > File. Select iOS/Source -> Cocoa Touch Class. Click Next and name it `MyHybridCameraPlugin`
 
-  <img src="img/newpluginfile.png width="760px" />
+  <img src="img/newfile.png" width="760px" />
+
+  <img src="img/newpluginfile.png" width="760px" />
+  
   1. Your `MyHybridCameraPlugin.h` should look like this
-      ```
+      ```Objective-C
       #import <Cordova/CDVPlugin.h>
       
       @interface MyCustomCameraPlugin : CDVPlugin
@@ -143,7 +147,7 @@ We will be building a very simple Instagram like app using iOS native features a
       ```
   2. Your `MyHybridCameraPlugin.m` should look like this
 
-      ```
+      ```Objective-C
       #import "MyCustomCameraPlugin.h"
       #import "ViewController.h"
       
@@ -164,7 +168,7 @@ We will be building a very simple Instagram like app using iOS native features a
       ```
 5. Add the following lines in `Pods/phonegap-ios-template/www/index.html` after *line 38*
 
-  ```
+  ```HTML
     <section id="imageSection">
         <img src="" alt="image will be displayed here..." id="myPic">
     </section>
@@ -172,12 +176,12 @@ We will be building a very simple Instagram like app using iOS native features a
   ```
   1. Also add the following css link tag
 
-    ```
+    ```HTML
     <link rel="stylesheet" type="text/css" href="css/image.css">
     ```
   2. Your `Pods/phonegap-ios-template/www/js/index.js` should look like this
 
-    ```
+    ```JavaScript
       var app = {
           clean: false,
           // Application Constructor
@@ -253,7 +257,7 @@ We will be building a very simple Instagram like app using iOS native features a
     ```
   3. Your `Pods/phonegap-ios-template/www/css/image.css` should look like this
 
-      ```
+      ```CSS
       .grayscale img
       {
           filter: grayscale(1);
@@ -410,7 +414,7 @@ We will be building a very simple Instagram like app using iOS native features a
   
   <img src="img/buttonaction.png width="760px" />
   1. create an action and name it `surpriseMe` and add the following code to it
-    ```
+    ```Objective-C
     - (IBAction)surpriseMe:(id)sender {
         MyCustomCameraPlugin *plugin = [self.pluginObjects objectForKey:@"MyCustomCameraPlugin"];
         [plugin surprise];
@@ -418,13 +422,15 @@ We will be building a very simple Instagram like app using iOS native features a
     
     ```
   2. Also add this header at the very top
-    ```
+  
+    ```Objective-C
     #import "MyCustomCameraPlugin.h"
     ```
 7. Add the following lines to your `Pods/phonegap-ios-template/www/config.xml` between the two `<widget>` tags
-  ```
-    <feature name="MyCamera">
-        <param name="ios-package" value="MyCustomCameraPlugin" />
-    </feature>
+  
+  ```XML
+  <feature name="MyCamera">
+    <param name="ios-package" value="MyCustomCameraPlugin" />
+  </feature>
   ```
 8. Run the app!
