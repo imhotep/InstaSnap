@@ -9,7 +9,7 @@ We will be building a very simple Instagram like app using iOS native features a
 0. Follow steps in [phonegap-webview-ios](https://github.com/phonegap/phonegap-webview-ios) to set up a new iOS native project
 1. Updating `www`
   1. Clone [phonegap-start](https://github.com/phonegap/phonegap-start) somewhere temporary
-  2. Delete `www/index.html`, `www/css/index.css` and `www/js/index.js` under `Pods/Pods/phonegap-ios-template`. 
+  2. Delete `www/index.html`, `www/css/index.css` and `www/js/index.js` under `Pods/Pods/phonegap-ios-template/Resources`. 
   3. Replace files from Step 2.2 with respective files from the `phonegap-start` repository.
 
     ![Copy www](img/www.png)
@@ -166,7 +166,7 @@ We will be building a very simple Instagram like app using iOS native features a
       }
       @end
       ```
-5. Add the following lines in `Pods/phonegap-ios-template/www/index.html` after *line 38*
+5. Add the following lines in `Pods/phonegap-ios-template/Resources/www/index.html` after *line 38*
 
   ```HTML
     <section id="imageSection">
@@ -255,7 +255,7 @@ We will be building a very simple Instagram like app using iOS native features a
 
       app.initialize();
     ```
-  3. Your `Pods/phonegap-ios-template/www/css/image.css` should look like this
+  3. Create a new file under `Pods/phonegap-ios-template/Resources/www/css`, name it `image.css` and add this to it
 
       ```CSS
       .grayscale img
@@ -427,7 +427,7 @@ We will be building a very simple Instagram like app using iOS native features a
     ```Objective-C
     #import "MyCustomCameraPlugin.h"
     ```
-7. Add the following lines to your `Pods/phonegap-ios-template/www/config.xml` between the two `<widget>` tags
+7. Add the following lines to your `Pods/phonegap-ios-template/Resources/www/config.xml` between the two `<widget>` tags
   
   ```XML
   <feature name="MyCamera">
