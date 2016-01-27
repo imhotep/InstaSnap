@@ -129,13 +129,13 @@ We will be building a very simple Instagram like app using iOS native features a
     
     ```
     
-4. Click on File > New > File. Select iOS/Source -> Cocoa Touch Class. Click Next and name it `MyHybridCameraPlugin`
+4. Click on File > New > File. Select iOS/Source -> Cocoa Touch Class. Click Next and name it `MyCustomCameraPlugin`
 
   <img src="img/newfile.png" width="760px" />
 
   <img src="img/newpluginfile.png" width="760px" />
   
-  1. Your `MyHybridCameraPlugin.h` should look like this
+  1. Your `MyCustomCameraPlugin.h` should look like this
       ```Objective-C
       #import <Cordova/CDVPlugin.h>
       
@@ -145,7 +145,7 @@ We will be building a very simple Instagram like app using iOS native features a
       @end
       
       ```
-  2. Your `MyHybridCameraPlugin.m` should look like this
+  2. Your `MyCustomCameraPlugin.m` should look like this
 
       ```Objective-C
       #import "MyCustomCameraPlugin.h"
